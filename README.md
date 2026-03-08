@@ -1,136 +1,46 @@
-# 🏠 HouseHunt – House Rental Platform
+# 🏠 HouseHunt
 
-HouseHunt is a web application developed to simplify the process of finding and listing rental properties.
-The platform allows renters to search for properties, owners to list their properties, and administrators to manage the system.
+HouseHunt is a full-stack web application developed using the MERN stack that simplifies the process of finding and listing rental properties. The platform allows users to explore available houses for rent, view property details, and send booking requests. Property owners can list and manage their properties, while administrators can monitor users and listings. The goal of this project is to create a simple and user-friendly digital marketplace for rental properties while demonstrating concepts of full stack development such as REST APIs, authentication, and database integration.
 
-This project is developed as a **full stack web development project** using the MERN stack.
+## 🚀 Features
 
----
+* User registration and login
+* Browse available rental properties
+* View detailed property information
+* Send booking requests for properties
+* Property owners can add, edit, and delete listings
+* Admin can manage users and property data
 
-## 🎯 Project Objective
+## 🧰 Tech Stack
 
-The objective of this project is to create a platform where users can easily explore rental properties and property owners can list their houses for rent.
-It helps in improving accessibility, transparency, and convenience in the rental process.
-
----
-
-## ⚙️ Technology Used
-
-Frontend
+**Frontend**
 
 * React (Vite)
 * TypeScript
-* CSS / UI libraries
+* Axios
 
-Backend
+**Backend**
 
 * Node.js
 * Express.js
 
-Database
+**Database**
 
 * MongoDB
 * Mongoose
 
-Architecture
+**Architecture**
 
-* MVC (Model View Controller)
+* MVC (Model-View-Controller)
 
----
+## ▶️ How to Run the Project
 
-## 👤 User Roles
+1. Clone the repository- git clone https://github.com/YOUR_USERNAME/househunt.git
 
-### Renter
+2. Navigate to the project folder- cd househunt
 
-* Register and login
-* Browse available properties
-* View property details
-* Send booking requests
-* Track booking status
+3. Install dependencies- npm install
 
-### Owner
+4. Start the development server- npm run dev
 
-* Add property listings
-* Edit or delete properties
-* View booking requests
-* Manage property availability
-
-### Admin
-
-* Manage users
-* Monitor property listings
-* View all bookings
-
----
-
-## 📂 Project Structure
-
-```id="xosb7b"
-HouseHunt
-│
-├── server
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middleware
-│   └── server.ts
-│
-├── src
-│   ├── components
-│   ├── pages
-│   ├── modules
-│   └── main.tsx
-│
-├── uploads
-├── index.html
-├── package.json
-└── vite.config.ts
-```
-
----
-
-## 🚀 How to Run the Project
-
-1.Clone the repository
-   git clone https://github.com/YOUR_USERNAME/househunt.git
-
-2.Open the project folder
-   cd househunt
-
-3.Install dependencies
-   npm install
-
-4.Start the development server
-   npm run dev
-
-The application will run on:
-   http://localhost:3000
-
-
-📌 Features
-
-*User authentication
-
-*Property listing system
-
-*Property search and filtering
-
-*Booking management
-
-*Admin dashboard
-
-📚 Learning Outcome
-
-*Through this project, concepts of:
-
-*Full stack web development
-
-*REST API creation
-
-*Database integration
-
-*User authentication
-
-*Client-server architecture
-
-were implemented and explored.
+The application will run on:  http://localhost:3000
