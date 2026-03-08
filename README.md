@@ -1,20 +1,98 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏠 HouseHunt – House Rental Platform
 
-# Run and deploy your AI Studio app
+HouseHunt is a web application developed to simplify the process of finding and listing rental properties.
+The platform allows renters to search for properties, owners to list their properties, and administrators to manage the system.
 
-This contains everything you need to run your app locally.
+This project is developed as a **full stack web development project** using the MERN stack.
 
-View your app in AI Studio: https://ai.studio/apps/a2777103-e8fd-4194-a5a6-36fbf9e5c7d3
+---
 
-## Run Locally
+## 🎯 Project Objective
 
-**Prerequisites:**  Node.js
+The objective of this project is to create a platform where users can easily explore rental properties and property owners can list their houses for rent.
+It helps in improving accessibility, transparency, and convenience in the rental process.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚙️ Technology Used
+
+Frontend
+
+* React (Vite)
+* TypeScript
+* CSS / UI libraries
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB
+* Mongoose
+
+Architecture
+
+* MVC (Model View Controller)
+
+---
+
+## 👤 User Roles
+
+### Renter
+
+* Register and login
+* Browse available properties
+* View property details
+* Send booking requests
+* Track booking status
+
+### Owner
+
+* Add property listings
+* Edit or delete properties
+* View booking requests
+* Manage property availability
+
+### Admin
+
+* Manage users
+* Monitor property listings
+* View all bookings
+
+---
+
+## 📂 Project Structure
+
+```id="xosb7b"
+HouseHunt
+│
+├── server
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   └── server.ts
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── modules
+│   └── main.tsx
+│
+├── uploads
+├── index.html
+├── package.json
+└── vite.config.ts
+```
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+
+```id="3yyqnc"
+git clone https://github.com/YOUR_USERNAME/h_
+```
