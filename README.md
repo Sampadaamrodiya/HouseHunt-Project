@@ -91,8 +91,46 @@ HouseHunt
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository
+1.Clone the repository
+   git clone https://github.com/YOUR_USERNAME/househunt.git
 
-```id="3yyqnc"
-git clone https://github.com/YOUR_USERNAME/h_
-```
+2.Open the project folder
+   cd househunt
+
+3.Install dependencies
+   npm install
+
+4.Start the development server
+   npm run dev
+
+The application will run on:
+   http://localhost:3000
+
+
+📌 Features
+
+*User authentication
+
+*Property listing system
+
+*Property search and filtering
+
+*Booking management
+
+*Admin dashboard
+
+📚 Learning Outcome
+
+*Through this project, concepts of:
+
+*Full stack web development
+
+*REST API creation
+
+*Database integration
+
+*User authentication
+
+*Client-server architecture
+
+were implemented and explored.
