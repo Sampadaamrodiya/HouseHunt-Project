@@ -28,6 +28,8 @@ async function startServer() {
   app.use("/api/admin", adminRoutes);
   app.use("/api/properties", propertyRoutes);
 
+  
+
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
@@ -45,6 +47,7 @@ async function startServer() {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
   });
+  
+  app.use("/uploads", express.static("uploads"));
 }
-
 startServer();

@@ -37,7 +37,7 @@ HouseHunt is a full-stack web application developed using the MERN stack that si
 
 1. Clone the repository- git clone https://github.com/YOUR_USERNAME/househunt.git
 
-2. Navigate to the project folder- cd househunt
+2. Navigate to the project folder- cd codefiles
 
 3. Install dependencies- npm install
 

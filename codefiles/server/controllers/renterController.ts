@@ -3,7 +3,7 @@ import db from '../db.js';
 
 export const getAllProperties = (req: Request, res: Response) => {
   const { location, type, minPrice, maxPrice } = req.query;
-  let query = 'SELECT * FROM properties WHERE status = "available"';
+  let query = 'SELECT * FROM properties';
   const params: any[] = [];
 
   if (location) {
