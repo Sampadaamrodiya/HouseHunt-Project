@@ -35,12 +35,19 @@ HouseHunt is a full-stack web application developed using the MERN stack that si
 
 ## ▶️ How to Run the Project
 
-1. Clone the repository- git clone https://github.com/YOUR_USERNAME/househunt.git
+1. Clone the repository:  git clone https://github.com/YOUR_USERNAME/HouseHunt.git
 
-2. Navigate to the project folder- cd codefiles
 
-3. Install dependencies- npm install
+2. Navigate to the project folder:  cd HouseHunt
 
-4. Start the development server- npm run dev
 
-The application will run on:  http://localhost:3000
+3. Go to the code folder:  cd codefiles
+
+
+4. Install dependencies:  npm install
+
+
+5. Start the development server:  npm run dev
+
+
+6. Open your browser and visit:  http://localhost:3000
